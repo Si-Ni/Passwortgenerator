@@ -1,0 +1,74 @@
+body {
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+
+#generator{
+    width: 400px;
+    margin: 15px auto;
+    padding: 10px 30px 20px 30px;
+    background: #ffffff;
+    line-height: 23px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px 10px;
+    overflow: hidden;
+}
+
+#eingabe{
+    display:flex;
+}
+
+#beschreibung {
+    text-align: left;
+}
+
+#eingabeDiv {
+    text-align: left;
+    margin-left: 50px;
+}
+
+label {
+    display: block;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    transition-duration: 0.08s;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: -3px 3px #008a57f6, -2px 2px #008a57f6, -1px 1px #008a57f6;
+    border: 1px solid #008a57f6;
+    margin: 3px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #008a57f6;
+    cursor: pointer;
+}
+
+#ausgabe {
+    margin-top: 0px;
+}
+
+#ausgabeFeld {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    margin: 0;
+    width: 80%
+}
+
+[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+#error {
+    color: red;
+}
